@@ -1,0 +1,64 @@
+.matches-container {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+}
+
+.matches-container h1 {
+  text-align: center;
+  color: #1e90ff;
+  margin-bottom: 20px;
+}
+
+.matches-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.matches-table th,
+.matches-table td {
+  padding: 12px 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.matches-table th {
+  background-color: #1e90ff;
+  color: white;
+  font-size: 16px;
+}
+
+.matches-table tr:hover {
+  background-color: #f1f8ff;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.team-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.team-link:hover {
+  color: #1e90ff;
+}
+
+@media screen and (max-width: 768px) {
+  .matches-table th, .matches-table td {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .logo {
+    width: 20px;
+    height: 20px;
+  }
+}
